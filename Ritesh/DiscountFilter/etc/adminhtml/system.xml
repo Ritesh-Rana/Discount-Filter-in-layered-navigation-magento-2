@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!-- Ritesh Rana -->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../Magento/Config/etc/system_file.xsd">
+    <system>
+        <tab id="discountFilter" translate="label" sortOrder="500">
+            <label>Discount Filter</label>
+        </tab>
+        <section id="discountFiltered" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+            <label>Settings</label>
+            <tab>discountFilter</tab>
+            <resource>Ritesh_DiscountFilter::Ritesh_discountfilter</resource>
+            <group id="discountFilterGroup" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>Discount Filter</label>
+                <field id="isEnableDisable" translate="label comment" type="select" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Enable</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>

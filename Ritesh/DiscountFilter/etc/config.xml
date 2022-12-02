@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- Ritesh Rana -->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <discountFiltered>
+            <discountFilterGroup>
+                <isEnableDisable>1</isEnableDisable>
+            </discountFilterGroup>
+        </discountFiltered>
+    </default>
+</config>

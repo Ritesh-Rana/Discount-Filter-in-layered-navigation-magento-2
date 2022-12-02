@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!-- Ritesh Rana -->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../lib/internal/Magento/Framework/ObjectManager/etc/config.xsd">
+    <preference for="Magento\Catalog\Model\Layer\FilterList" type="Ritesh\DiscountFilter\Model\Layer\FilterList" />
+    <type name="Magento\Catalog\Model\Layer\FilterList">
+        <plugin name="FilterDiscountList" type="Ritesh\DiscountFilter\Model\Layer\FilterList" sortOrder="1" disabled="false"  />
+    </type>
+</config>

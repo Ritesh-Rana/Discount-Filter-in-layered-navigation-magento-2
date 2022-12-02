@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<!-- Ritesh Rana -->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:App/etc/routes.xsd">
+    <router id="standard">
+        <route frontName="discountfilter" id="discountfilter">
+            <module name="Ritesh_DiscountFilter"/>
+        </route>
+    </router>
+</config>
